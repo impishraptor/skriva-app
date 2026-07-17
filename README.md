@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/impishraptor/skriva-app/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/impishraptor/skriva-app?style=for-the-badge&label=Download&color=2f6f5e" />
+    <img alt="Latest release" src="https://img.shields.io/badge/Download-v1.0.13-2f6f5e?style=for-the-badge" />
   </a>
 </p>
 
