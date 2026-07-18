@@ -13,8 +13,13 @@
 </p>
 
 <p align="center">
+  <strong>macOS · Windows · Linux</strong>
+</p>
+
+<p align="center">
   <a href="https://github.com/impishraptor/skriva-app/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/badge/Download-v1.0.13-2f6f5e?style=for-the-badge" />
+    <img alt="Latest release"
+      src="https://img.shields.io/github/v/release/impishraptor/skriva-app?style=for-the-badge&label=Download&color=2f6f5e" />
   </a>
 </p>
 
@@ -37,6 +42,7 @@
 Skriva is **in testing** right now. You’re welcome to download it, try it on your machines, and use it freely while we improve the product.
 
 - No account required — install and start
+- Available for **macOS**, **Windows**, and **Linux**
 - Expect rough edges; things can change between updates
 - Feedback helps — open a [GitHub Issue](https://github.com/impishraptor/skriva-app/issues) if something breaks or feels off
 
@@ -64,6 +70,19 @@ This repository is for **downloads and updates** only. Builds here are **test re
 4. Launch Skriva from Applications or Spotlight.
 
 > Prefer the in-app path later: **Settings → Check for updates**, or use **Download DMG** if automatic update isn’t available.
+
+### Windows (x64)
+
+Windows builds ship with every release starting with **1.0.14**.
+
+1. Open the [**latest release**](https://github.com/impishraptor/skriva-app/releases/latest).
+2. Download **`Skriva Setup … .exe`** (x64 installer).
+3. Run the installer and follow the prompts (you can choose the install folder).
+4. Launch **Skriva** from the Start menu or desktop shortcut.
+
+> The Windows installer is **unsigned** for now. Windows SmartScreen may show “Windows protected your PC” / unknown publisher — choose **More info → Run anyway** if you trust this download. Code signing will come later.
+
+In-app auto-update is **macOS-only** for now. On Windows, install a newer Setup `.exe` from Releases when you want to update.
 
 ### Linux
 
@@ -119,6 +138,7 @@ sudo pacman -U skriva-*-x86_64.pkg.tar.zst
 Skriva can check for new versions from this repository.
 
 - **macOS** — use **Settings → Check for updates**, or install the latest `.dmg` from Releases.
+- **Windows** — download the latest **`Skriva Setup … .exe`** from Releases and run it (in-app updates not enabled yet).
 - **Linux** — download the package for your distro from the latest release and install over the previous version.
 
 Always prefer the **[latest release](https://github.com/impishraptor/skriva-app/releases/latest)** page for first-time installs.
