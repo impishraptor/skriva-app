@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/impishraptor/skriva-app/releases/latest">
-    <img alt="Download v1.0.15" src="download-badge.svg" height="28" />
+    <img alt="Download v1.0.14" src="download-badge.svg" height="28" />
   </a>
 </p>
 
